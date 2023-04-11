@@ -6,7 +6,6 @@ public class BubbleSort {
             for (int i = 0; i < lastIndex; i++) {
                 if (inputArray[i] > inputArray[i + 1]) {
                     swapValues(inputArray, i, i + 1);
-                    System.out.println("");
                 }
             }
         }
