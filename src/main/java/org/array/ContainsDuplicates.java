@@ -22,7 +22,7 @@ public class ContainsDuplicates {
 
     public static void main(String[] args) {
         int[] inputs = {1,2,3,9,4,5,6};
-
+        System.out.println(containsDuplicats(inputs));
         System.out.println(containsDuplicats(inputs));
     }
 }
